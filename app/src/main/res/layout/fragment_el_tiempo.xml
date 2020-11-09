@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ElTiempoFragment">
+
+    <ImageView
+        android:id="@+id/ejercicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/repeticion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="48sp"/>
+    <TextView
+        android:id="@+id/cambio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:text="!!!CAMBIO DE CLIMA!!!"
+        android:gravity="center"
+        android:textSize="48sp"/>
+</FrameLayout>
